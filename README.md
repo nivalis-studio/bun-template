@@ -1,15 +1,7 @@
-# bun-template
+## @nivalis-studio/bun-template
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
+### Install
 
 ```bash
-bun run index.ts
+bun create github.com/nivalis-studio/bun-template projet-name
 ```
-
-This project was created using `bun init` in bun v1.2.13. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
