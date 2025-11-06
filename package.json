@@ -5,9 +5,7 @@
 	"private": true,
 	"packageManager": "bun@1.2.3",
 	"scripts": {
-		"dev": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next dev",
-		"build": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next build",
-		"start": "NEXT_TELEMETRY_DISABLED=1 NODE_NO_WARNINGS=1 next start",
+		"dev": "bun run --watch src/index.tsx",
 		"lint": "biome check",
 		"lint:fix": "biome check --write",
 		"prepare": "lefthook install",
