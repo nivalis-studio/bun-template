@@ -23,8 +23,8 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"paths": {
-			"@/*": ["./*"]
+			"@/*": ["./src/*"]
 		},
-		"baseUrl": "./src"
+		"baseUrl": "."
 	}
 }
