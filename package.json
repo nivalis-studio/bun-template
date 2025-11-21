@@ -19,7 +19,7 @@
 		"build": "zshy",
 		"prepack": "zshy",
 		"prepare": "lefthook install",
-		"ts": "tsc --noEmit"
+		"ts": "tsc --noEmit --incremental"
 	},
 	"dependencies": {},
 	"devDependencies": {
