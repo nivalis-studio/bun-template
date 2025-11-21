@@ -2,15 +2,15 @@
 	"name": "@nivalis/template",
 	"type": "module",
 	"version": "0.1.0",
-	"private": true,
+	"description": "@nivalis/template",
 	"license": "MIT",
 	"packageManager": "pnpm@10.23.0",
 	"publishConfig": {
 		"access": "public"
 	},
-	"homepage": "https://github.com/nivalis-studio/template#readme",
+	"homepage": "https://github.com/nivalis-studio/@nivalis/template#readme",
 	"repository": {
-		"url": "git+https://github.com/nivalis-studio/template.git"
+		"url": "git+https://github.com/nivalis-studio/@nivalis/template.git"
 	},
 	"scripts": {
 		"dev": "bun run --watch src/index.tsx",
