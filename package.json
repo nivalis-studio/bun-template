@@ -16,6 +16,8 @@
 		"dev": "bun run --watch src/index.tsx",
 		"lint": "biome check",
 		"lint:fix": "biome check --write",
+		"build": "zshy",
+		"prepack": "zshy",
 		"prepare": "lefthook install",
 		"ts": "tsc --noEmit"
 	},
