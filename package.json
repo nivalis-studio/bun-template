@@ -1,8 +1,8 @@
 {
 	"name": "@nivalis/template",
+	"description": "@nivalis/template",
 	"type": "module",
 	"version": "0.1.0",
-	"description": "@nivalis/template",
 	"license": "MIT",
 	"packageManager": "pnpm@10.23.0",
 	"publishConfig": {
@@ -23,6 +23,9 @@
 		"ts": "tsc --noEmit --incremental"
 	},
 	"dependencies": {},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "catalog:",
 		"@commitlint/cli": "catalog:",
