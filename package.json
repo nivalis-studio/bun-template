@@ -13,7 +13,7 @@
 		"url": "git+https://github.com/nivalis-studio/@nivalis/template.git"
 	},
 	"scripts": {
-		"dev": "bun run --watch src/index.tsx",
+		"dev": "bun run --watch src/index.ts",
 		"lint": "biome check",
 		"lint:fix": "biome check --write",
 		"test": "bun test",
